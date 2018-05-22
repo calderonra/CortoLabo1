@@ -5,12 +5,13 @@
  */
 package fabricadeoperacion;
 
+import aritmetico.aritmetico;
+
 /**
  *
  * @author UCA
  */
 public interface fabricainter {
-  //  aritmetico getOperacion(int type);
-    
-    
+   aritmetico getfabricadearitmetico(int type);
+   
 }

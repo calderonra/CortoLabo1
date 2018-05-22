@@ -13,8 +13,15 @@ public class fabricadeartimetico implements fabricainter {
     public aritmetico getaritmetico(String caso){
         switch(caso){
             case "suma":
-                return new Suma;
+                return new Suma();
+            case "resta":
+                return new Resta();
+            case "multiplicacion":
+                return new multiplicacion();
+            case "dividir":
+                return new divir();
         }
+        return null;
     }
     
 }
