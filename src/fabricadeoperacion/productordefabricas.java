@@ -9,9 +9,6 @@ package fabricadeoperacion;
  *
  * @author UCA
  */
-public class fabrica {
-    public static void main(String[] args){
-        fabricainter fabrica;
-        factory = 
-    }
+public class productordefabricas {
+    
 }
